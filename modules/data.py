@@ -7,7 +7,7 @@ import tushare
 
 from datetime import datetime
 from pandas_datareader import data as web
-from util import Util
+from modules.util import Util
 from alpha_vantage.timeseries import TimeSeries
 
 class Data:
